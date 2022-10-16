@@ -32,8 +32,8 @@ def result():
         # elif request.form['submit_button'] == 'button2':
         #     return render_template("random.html", List=List)
     # elif request.method == 'POST':
-        os.environ['SPOTIPY_CLIENT_ID'] = "b976f3e1bef142b8bce6ae0b9272bca1"
-        os.environ['SPOTIPY_CLIENT_SECRET'] = "989927ca5e914b689e577c3578441a45"
+        os.environ['SPOTIPY_CLIENT_ID'] = "XXXXXXXXXXXXX"
+        os.environ['SPOTIPY_CLIENT_SECRET'] = "YYYYYYYYYYYYY"
         os.environ['SPOTIPY_REDIRECT_URI'] = 'http://localhost:8888/callback'
         # http://localhost:8888/callback
 
